@@ -1,8 +1,24 @@
 aid: fan-controlled-football
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fan-controlled-football.png
 name: Fan Controlled Football
-description: Fan Controlled Football is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Fan Controlled Football (FCF) was a professional indoor American football league in which
+  fans voted on play calls in real time through a mobile app, playing a fast, 7-on-7 format staged at
+  Pullman Yards in Atlanta and streamed to social and live-video audiences. The league drew high-profile
+  athlete and celebrity team owners and investors and positioned itself as a fan-interactive, tech-driven
+  sports and entertainment property. It was surfaced as a portfolio company of Lightspeed Venture Partners
+  and added to the API Evangelist network. FCF paused operations and its public web presence (fcf.io) no
+  longer serves a live site, so it currently exposes no developer portal, documentation, or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/fan-controlled-football/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Sports
+- Football
+- Entertainment
+- Streaming
+- Fan Engagement
+- Live Events
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
